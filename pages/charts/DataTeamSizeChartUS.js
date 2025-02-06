@@ -1,22 +1,4 @@
-import { Bar } from 'react-chartjs-2';
-import {
-  Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
-  BarElement,
-  Title,
-  Tooltip,
-  Legend
-} from 'chart.js';
-
-ChartJS.register(
-  CategoryScale,
-  LinearScale,
-  BarElement,
-  Title,
-  Tooltip,
-  Legend
-);
+import DataTeamSizeChart from './DataTeamSizeChart';
 
 const companyData = [
     { name: 'Rippling', value: 0.7 },
@@ -68,71 +50,11 @@ const companyData = [
     { name: 'dbt', value: 7.3 }
   ];
 
-const data = {
-  labels: companyData.map(company => company.name),
-  datasets: [
-    {
-      label: 'Data Roles as % of Company Size',
-      data: companyData.map(company => company.value),
-      backgroundColor: 'rgba(100, 100, 100, 0.8)',
-      borderRadius: 5,
-    },
-  ],
-};
-
-const options = {
-  indexAxis: 'y',
-  responsive: true,
-  maintainAspectRatio: false,
-  plugins: {
-    legend: { display: false },
-    title: {
-      display: true,
-      text: 'Data Roles as % of Company Size',
-      font: { size: 20 }
-    },
-  },
-  scales: {
-    x: {
-      ticks: {
-        font: { size: 14, weight: 'normal' },
-        callback: function(value) {
-          return value + '%';
-        },
-        autoSkip: false,
-      },
-    },
-    y: {
-      ticks: {
-        font: { size: 14, weight: 'normal' },
-        autoSkip: false,
-        maxRotation: 0,
-      },
-    },
-  },
-};
-
 export default function DataTeamSizeChartUS() {
   return (
-    <div style={{ 
-      maxWidth: '800px', 
-      margin: '0 auto',
-      padding: '20px',
-      textAlign: 'center'
-    }}>
-      <h2 style={{ 
-        fontSize: '2rem', 
-        marginBottom: '1rem',
-        color: '#333'
-      }}>Data Roles as % of Company Size (US)</h2>
-      <p style={{ 
-        color: '#666', 
-        marginBottom: '2rem',
-        lineHeight: '1.6'
-      }}>Explore how different European companies allocate their workforce to data roles</p>
-      <div style={{ height: '700px' }}>
-        <Bar data={data} options={options} />
-      </div>
-    </div>
+    <DataTeamSizeChart
+      companyData={companyData}      
+      chartTitle="US Companies 🇺🇸 (Data Roles as % of Company Size)"
+    />
   );
 }

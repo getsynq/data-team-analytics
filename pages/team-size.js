@@ -1,8 +1,9 @@
-import Image from 'next/image';
+import { useState } from 'react';
 import Link from 'next/link';
-import DataTeamSizeChartEurope from './charts/DataTeamSizeChartEurope';
+import Nav from '../components/Nav';
+import DataTeamSizeChartEU from './charts/DataTeamSizeChartEU';
 import DataTeamSizeChartUS from './charts/DataTeamSizeChartUS';
-import teamSizeImage from '../assets/data_team_size_companies.png';
+import DataTeamSizeChartVertical from './charts/DataTeamSizeChartVertical';
 
 export default function TeamSize() {
   return (
@@ -11,12 +12,11 @@ export default function TeamSize() {
       margin: '0 auto', 
       padding: '20px',
       backgroundColor: 'white'
-    }}>
-      <Link href="/" style={{ color: '#0070f3' }}>Back to Home</Link>
+    }}>     
       
       <header style={{ 
         textAlign: 'center', 
-        padding: '60px 0',
+        padding: '40px 0',
         maxWidth: '800px',
         margin: '0 auto'
       }}>
@@ -34,21 +34,13 @@ export default function TeamSize() {
           color: '#666',
           marginBottom: '40px'
         }}>
-          A deep dive into how data teams scale<br />across 100 tech scaleups
+          Data team sizes relative to total company size<br /> in 100 scaleup tech companies
         </h3>
-        
-        <Image 
-          src={teamSizeImage}
-          alt="Data team size companies"
-          width={800}
-          height={400}
-          style={{ maxWidth: '100%', height: 'auto' }}
-        />
       </header>
       
-      <DataTeamSizeChartEurope />
+      <DataTeamSizeChartEU />
       <DataTeamSizeChartUS />
-      
+            
       <p style={{ 
         fontStyle: 'italic',
         color: '#666',
@@ -57,7 +49,12 @@ export default function TeamSize() {
         textAlign: 'center',
         lineHeight: '1.6'
       }}>
-        Data collected from 100 tech scaleups across Europe in 2023. The median data team as percentage of the total workforce is 3%, with most companies falling within the 1-5% range.
+        Data collected from 100 tech scaleups across Europe in 2023. The median data team as percentage of the total workforce is 3%, with most companies falling within the 1-5% range. <a 
+          href="https://www.synq.io/blog/data-team-size-at-100-scaleups" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          style={{ color: '#0070f3', textDecoration: 'none' }}
+        >Read more</a> about this analysis.
       </p>
     </div>
   );
