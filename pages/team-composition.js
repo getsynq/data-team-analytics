@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import DataTeamComposition from './charts/DataTeamComposition';
+import DataTeamComposition from '../components/charts/DataTeamComposition';
 
-export default function TeamComposition() {
+export default function TeamCompositionPage() {
   return (
     <div style={{ 
       maxWidth: '800px', 

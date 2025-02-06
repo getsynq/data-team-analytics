@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Nav from '../components/Nav';
-import DataTeamSizeChartEU from './charts/DataTeamSizeChartEU';
-import DataTeamSizeChartUS from './charts/DataTeamSizeChartUS';
-import DataTeamSizeChartVertical from './charts/DataTeamSizeChartVertical';
+import DataTeamSizeChartEU from '../components/charts/DataTeamSizeChartEU';
+import DataTeamSizeChartUS from '../components/charts/DataTeamSizeChartUS';
+import DataTeamSizeChartVertical from '../components/charts/DataTeamSizeChartVertical';
 
 export default function TeamSize() {
   return (
@@ -34,12 +34,12 @@ export default function TeamSize() {
           color: '#666',
           marginBottom: '40px'
         }}>
-          Data team sizes relative to total company size<br /> in 100 scaleup tech companies
+          A deep dive into how data teams scale<br />across 100 tech scaleups
         </h3>
       </header>
       
       <DataTeamSizeChartEU />
-      <DataTeamSizeChartUS />
+      <DataTeamSizeChartUS />      
             
       <p style={{ 
         fontStyle: 'italic',

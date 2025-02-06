@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import SalaryBenchMark from './charts/SalaryBenchMark';
+import SalaryBenchMark from '../components/charts/SalaryBenchMark';
 
 export default function SalaryBenchmark() {
   return (

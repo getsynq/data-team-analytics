@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import DataEngineerRatio from './charts/DataEngineerRatio';
+import DataEngineerRatio from '../components/charts/DataEngineerRatio';
 
-export default function TeamComposition() {
+export default function DataEngineerRatioPage() {
   return (
     <div style={{ 
       maxWidth: '800px', 
