@@ -31,7 +31,7 @@ export default function DataEngineerRatioPage() {
           color: '#666',
           marginBottom: '40px'
         }}>
-          Analyze the relationship between data teams<br /> and overall engineering workforce.
+          How data and product teams compare to engineering team sizes in 40 scaleup companies
         </h3>       
         
       </header>
@@ -46,7 +46,7 @@ export default function DataEngineerRatioPage() {
         textAlign: 'center',
         lineHeight: '1.6'
       }}>
-        Data collected from 40 companies in July 2024 based on publicly available LinkedIn data. <a 
+        Data collected from 40 companies in April 2023 based on publicly available LinkedIn data. Note that some people may not have updated their LinkedIn job titles to their most recent roles and are not included in this analysis. We've spot checked many data points through company interviews and found the numbers align closely with reported figures. <a 
           href="https://www.synq.io/blog/data-product-engineer-ratio" 
           target="_blank" 
           rel="noopener noreferrer"

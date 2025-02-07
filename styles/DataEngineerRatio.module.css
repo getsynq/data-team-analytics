@@ -1,0 +1,13 @@
+.chartContainer {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+@media (max-width: 640px) {
+  .chartContainer {
+    margin-left: -20px;  /* Aligns with left edge on mobile */
+    padding-left: 20px;  /* Adds some padding back */
+    width: calc(100% + 20px);  /* Compensates for negative margin */
+  }
+} 

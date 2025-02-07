@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Nav from '../components/Nav';
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
@@ -25,62 +25,63 @@ export default function Home() {
           margin: '0 auto',
           color: '#666'
         }}>
-          Dive into comprehensive visualizations about data teams,<br /> their composition, and industry benchmarks.
+          Dive into visualizations about data teams, their composition, and industry benchmarks.
         </h3>
       </header>
 
       {/* Cards Section */}
-      <section style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(2, 1fr)',
-        gap: '24px',
-        padding: '20px 0',
-        maxWidth: '800px',
-        margin: '0 auto'
-      }}>
+      <section className={styles.cardGrid}>
         <Link href="/team-size" style={{
           padding: '32px',
           borderRadius: '12px',
           border: '1px solid #eee',
           textDecoration: 'none',
-          color: '#ffffff',
-          backgroundColor: '#483c74'
+          color: '#000000',
+          background: 'linear-gradient(125deg, #FFE419 0%, #FFF5B1 100%)',
+          transition: 'all 0.2s ease-in-out',
+          boxShadow: '0 2px 4px rgba(0,0,0,0.05)',
         }}>
-          <h3 style={{ fontSize: '1.5rem', marginBottom: '16px', color: '#ffffff' }}>Data Team Size</h3>
-          <p style={{ color: '#CBD5E1', lineHeight: '1.6' }}>Discover how data team sizes scale with company growth across Europe.</p>
+          <h3 style={{ fontSize: '1.5rem', marginBottom: '16px', color: '#000000' }}>Data Team Size</h3>
+          <p style={{ color: '#333333', lineHeight: '1.6' }}>Discover how data team sizes scale with company growth across Europe.</p>
         </Link>
         <Link href="/team-composition" style={{
           padding: '32px',
           borderRadius: '12px',
           border: '1px solid #eee',
           textDecoration: 'none',
-          color: '#ffffff',
-          backgroundColor: '#483c74'
+          color: '#000000',
+          background: 'linear-gradient(145deg, #FFE419 0%, #FFF8D1 100%)',
+          transition: 'all 0.2s ease-in-out',
+          boxShadow: '0 2px 4px rgba(0,0,0,0.05)',
         }}>
-          <h3 style={{ fontSize: '1.5rem', marginBottom: '16px', color: '#ffffff' }}>Team Composition</h3>
-          <p style={{ color: '#CBD5E1', lineHeight: '1.6' }}>Explore the makeup of successful data teams across different company sizes.</p>
+          <h3 style={{ fontSize: '1.5rem', marginBottom: '16px', color: '#000000' }}>Team Composition</h3>
+          <p style={{ color: '#333333', lineHeight: '1.6' }}>Explore the makeup of successful data teams across different company sizes.</p>
         </Link>
         <Link href="/data-engineer-ratio" style={{
           padding: '32px',
           borderRadius: '12px',
           border: '1px solid #eee',
           textDecoration: 'none',
-          color: '#ffffff',
-          backgroundColor: '#483c74'
+          color: '#000000',
+          background: 'linear-gradient(155deg, #FFE419 10%, #FFF5B1 90%)',
+          transition: 'all 0.2s ease-in-out',
+          boxShadow: '0 2px 4px rgba(0,0,0,0.05)',
         }}>
-          <h3 style={{ fontSize: '1.5rem', marginBottom: '16px', color: '#ffffff' }}>Data-to-Engineer Ratio</h3>
-          <p style={{ color: '#CBD5E1', lineHeight: '1.6' }}>Analyze the relationship between data teams and overall engineering workforce.</p>
+          <h3 style={{ fontSize: '1.5rem', marginBottom: '16px', color: '#000000' }}>Data-to-Engineer Ratio</h3>
+          <p style={{ color: '#333333', lineHeight: '1.6' }}>Analyze the relationship between data teams and overall engineering workforce.</p>
         </Link>
         <Link href="/salary-benchmark" style={{
           padding: '32px',
           borderRadius: '12px',
           border: '1px solid #eee',
           textDecoration: 'none',
-          color: '#ffffff',
-          backgroundColor: '#483c74'
+          color: '#000000',
+          background: 'linear-gradient(165deg, #FFE419 15%, #FFF2A1 95%)',
+          transition: 'all 0.2s ease-in-out',
+          boxShadow: '0 2px 4px rgba(0,0,0,0.05)',
         }}>
-          <h3 style={{ fontSize: '1.5rem', marginBottom: '16px', color: '#ffffff' }}>Salary Benchmark</h3>
-          <p style={{ color: '#CBD5E1', lineHeight: '1.6' }}>Compare data team salaries across Europe in 2023.</p>
+          <h3 style={{ fontSize: '1.5rem', marginBottom: '16px', color: '#000000' }}>Salary Benchmark</h3>
+          <p style={{ color: '#333333', lineHeight: '1.6' }}>Compare data team salaries across Europe in 2023.</p>
         </Link>
       </section>
     </div>

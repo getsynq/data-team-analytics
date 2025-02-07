@@ -31,7 +31,7 @@ export default function TeamCompositionPage() {
           color: '#666',
           marginBottom: '40px'
         }}>
-          A deep dive into the ratio of data roles across insight,<br /> data engineering, and machine learning
+          Composition of data roles across insight, data engineering, and machine learning
 
         </h3>
         

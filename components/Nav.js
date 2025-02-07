@@ -1,9 +1,12 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import { useState } from 'react';
+import styles from '../styles/Nav.module.css';
 
 export default function Nav() {
   const router = useRouter();
   const currentPath = router.pathname;
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const getLinkStyle = (path) => ({
     textDecoration: 'none',
@@ -40,18 +43,57 @@ export default function Nav() {
           Sponsored by <a href="https://synq.io" target="_blank" style={{ textDecoration: 'none', margin: 0, padding: 0 }}>SYNQ</a>, the data products observability platform
         </div>
       </div>
-      <div style={{ 
-        display: 'flex', 
-        gap: '24px',
-        alignItems: 'center',
-        justifyContent: 'center',
-        flexWrap: 'wrap'
-      }}>
+
+      {/* Desktop Menu */}
+      <div className={styles.desktopMenu}>
         <Link href="/team-size" style={getLinkStyle('/team-size')}>Data Team Size</Link>
         <Link href="/team-composition" style={getLinkStyle('/team-composition')}>Team Composition</Link>
         <Link href="/data-engineer-ratio" style={getLinkStyle('/data-engineer-ratio')}>Data-to-Engineer Ratio</Link>
         <Link href="/salary-benchmark" style={getLinkStyle('/salary-benchmark')}>Salary Benchmark</Link>
       </div>
+
+      {/* Hamburger Button */}
+      <button 
+        onClick={() => setIsMenuOpen(!isMenuOpen)}
+        className={styles.hamburger}
+        style={{
+          background: 'none',
+          border: 'none',
+          cursor: 'pointer',
+          padding: '8px',
+        }}
+      >
+        <div style={{
+          width: '24px',
+          height: '2px',
+          background: '#333',
+          marginBottom: '6px',
+          transition: 'all 0.3s ease'
+        }}></div>
+        <div style={{
+          width: '24px',
+          height: '2px',
+          background: '#333',
+          marginBottom: '6px',
+          transition: 'all 0.3s ease'
+        }}></div>
+        <div style={{
+          width: '24px',
+          height: '2px',
+          background: '#333',
+          transition: 'all 0.3s ease'
+        }}></div>
+      </button>
+
+      {/* Mobile Menu */}
+      {isMenuOpen && (
+        <div className={styles.mobileMenu}>
+          <Link href="/team-size" style={getLinkStyle('/team-size')}>Data Team Size</Link>
+          <Link href="/team-composition" style={getLinkStyle('/team-composition')}>Team Composition</Link>
+          <Link href="/data-engineer-ratio" style={getLinkStyle('/data-engineer-ratio')}>Data-to-Engineer Ratio</Link>
+          <Link href="/salary-benchmark" style={getLinkStyle('/salary-benchmark')}>Salary Benchmark</Link>
+        </div>
+      )}
     </nav>
   );
 } 

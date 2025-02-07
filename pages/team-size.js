@@ -34,7 +34,7 @@ export default function TeamSize() {
           color: '#666',
           marginBottom: '40px'
         }}>
-          A deep dive into how data teams scale<br />across 100 tech scaleups
+          Ratio of data team size compared to total company size in 100 tech scaleups
         </h3>
       </header>
       
