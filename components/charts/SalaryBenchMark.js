@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
 import salaryData from '../../assets/salary_data_with_tooltip.csv';
+import styles from '../../styles/SalaryBenchMark.module.css';
 
 const experienceLevels = ["Junior", "Mid", "Senior"];
 
@@ -145,7 +146,7 @@ const SalaryChart = () => {
         fontSize: '20px',
         fontWeight: '600',
         textAlign: 'center',
-        marginBottom: '30px',  // Increased from 20px to 30px
+        marginBottom: '30px',
         color: '#666'
       }}>
         Salary Distribution by Experience Level
@@ -188,7 +189,9 @@ const SalaryChart = () => {
       }}>
         Showing top 5 cities by number of data points in filter. Data includes {totalCities} cities in total.
       </p>
-      <div ref={chartRef}></div>
+      <div className={styles.chartContainer}>
+        <div ref={chartRef} className={styles.chart}></div>
+      </div>
     </div>
   );
 };

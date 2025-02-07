@@ -1,0 +1,22 @@
+.chartContainer {
+  width: 100%;
+}
+
+.chart {
+  width: 100%;
+  min-height: 400px;
+}
+
+@media (max-width: 640px) {
+  .chartContainer {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-left: -20px;
+    padding-left: 20px;
+    width: calc(100% + 40px);
+  }
+
+  .chart {
+    min-width: 600px; /* Ensures chart maintains minimum width on mobile */
+  }
+} 

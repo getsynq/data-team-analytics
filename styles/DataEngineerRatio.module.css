@@ -1,13 +1,35 @@
+.chartWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .chartContainer {
   width: 100%;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  max-width: 600px; /* Match the chart width on desktop */
+}
+
+.chart {
+  width: 100%;
+  min-height: 600px;
 }
 
 @media (max-width: 640px) {
+  .chartWrapper {
+    justify-content: flex-start;
+  }
+
   .chartContainer {
-    margin-left: -20px;  /* Aligns with left edge on mobile */
-    padding-left: 20px;  /* Adds some padding back */
-    width: calc(100% + 20px);  /* Compensates for negative margin */
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-left: -20px;
+    padding-left: 20px;
+    width: calc(100% + 40px);
+    max-width: none;
+  }
+
+  .chart {
+    min-width: 600px;
+    height: 400px;
   }
 } 

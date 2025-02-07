@@ -40,6 +40,7 @@ import FaireLogo from '../../assets/logos/faire.png';
 import LatticeLogo from '../../assets/logos/lattice.png';
 import WiseLogo from '../../assets/logos/wise.png';
 import CheckoutLogo from '../../assets/logos/checkout.png';
+import styles from '../../styles/DataEngineerRatio.module.css';
 
 const companyLogos = {
   "Monday.com": MondayLogo.src,
@@ -223,15 +224,16 @@ export default function DataEngineerRatio() {
         fontSize: '20px',
         fontWeight: '600',
         textAlign: 'center',
-        marginBottom: '10px',
+        marginBottom: '30px',
         color: '#666'
       }}>
         Data and Product to Engineering Roles Ratio
       </h2>
-      <div ref={chartRef} style={{ 
-        display: 'flex',
-        justifyContent: 'center'
-      }}></div>
+      <div className={styles.chartWrapper}>
+        <div className={styles.chartContainer}>
+          <div ref={chartRef} className={styles.chart}></div>
+        </div>
+      </div>
     </div>
   );
 }
