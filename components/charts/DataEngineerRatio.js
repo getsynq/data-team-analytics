@@ -98,7 +98,6 @@ const dataPoints = [
   { name: "Brex", x: 0.12, y: 0.08 },
   { name: "Loom", x: 0.18, y: 0.15 },
   { name: "Typeform", x: 0.19, y: 0.13 },
-  { name: "Cazoo", x: 0.23, y: 0.21 },
   { name: "N26", x: 0.17, y: 0.16 },
   { name: "Stripe", x: 0.11, y: 0.09 },
   { name: "Rippling", x: 0.04, y: 0.06 },

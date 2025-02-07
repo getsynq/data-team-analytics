@@ -4,58 +4,66 @@ import Nav from '../components/Nav';
 import DataTeamSizeChartEU from '../components/charts/DataTeamSizeChartEU';
 import DataTeamSizeChartUS from '../components/charts/DataTeamSizeChartUS';
 import DataTeamSizeChartVertical from '../components/charts/DataTeamSizeChartVertical';
+import SEO from '../components/SEO';
 
 export default function TeamSize() {
   return (
-    <div style={{ 
-      maxWidth: '800px', 
-      margin: '0 auto', 
-      padding: '20px',
-      backgroundColor: 'white'
-    }}>     
-      
-      <header style={{ 
-        textAlign: 'center', 
-        padding: '40px 0',
-        maxWidth: '800px',
-        margin: '0 auto'
-      }}>
-        <h2 style={{ 
-          fontSize: '3.5rem', 
-          marginBottom: '24px',
-          lineHeight: '1.1'
-        }}>Data Team Sizes</h2>
-        <h3 style={{ 
-          fontWeight: 'normal', 
-          fontSize: '1.5rem', 
-          maxWidth: '800px', 
-          lineHeight: '1.4',
-          margin: '0 auto',
-          color: '#666',
-          marginBottom: '40px'
+    <>
+      <SEO 
+        title="Data Team Size Analysis - Data Team Analytics"
+        description="Discover how data team sizes scale with company growth across European tech companies. Analysis of 100+ tech scaleups."
+        path="/team-size"
+      />
+      <div style={{ 
+        maxWidth: '800px', 
+        margin: '0 auto', 
+        padding: '20px',
+        backgroundColor: 'white'
+      }}>     
+        
+        <header style={{ 
+          textAlign: 'center', 
+          padding: '40px 0',
+          maxWidth: '800px',
+          margin: '0 auto'
         }}>
-          Ratio of data team size compared to total company size in 100 tech scaleups
-        </h3>
-      </header>
-      
-      <DataTeamSizeChartEU />
-      <DataTeamSizeChartUS />      
-            
-      <p style={{ 
-        fontStyle: 'italic',
-        color: '#666',
-        fontSize: '0.9rem',
-        marginTop: '40px',
-        textAlign: 'center',
-        lineHeight: '1.6'
-      }}>
-        Data collected from 100 tech scaleups across Europe in 2023. The median data team as percentage of the total workforce is 3%, with most companies falling within the 1-5% range. <a 
-          href="https://www.synq.io/blog/data-team-size-at-100-scaleups" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          style={{ color: '#0070f3', textDecoration: 'none' }}
-        >Read more</a> about this analysis.
-      </p>
-    </div>
+          <h2 style={{ 
+            fontSize: '3.5rem', 
+            marginBottom: '24px',
+            lineHeight: '1.1'
+          }}>Data Team Sizes</h2>
+          <h3 style={{ 
+            fontWeight: 'normal', 
+            fontSize: '1.5rem', 
+            maxWidth: '800px', 
+            lineHeight: '1.4',
+            margin: '0 auto',
+            color: '#666',
+            marginBottom: '40px'
+          }}>
+            Ratio of data team size compared to total company size in 100 tech scaleups
+          </h3>
+        </header>
+        
+        <DataTeamSizeChartEU />
+        <DataTeamSizeChartUS />      
+              
+        <p style={{ 
+          fontStyle: 'italic',
+          color: '#666',
+          fontSize: '0.9rem',
+          marginTop: '40px',
+          textAlign: 'center',
+          lineHeight: '1.6'
+        }}>
+          Data collected from 100 tech scaleups across Europe in 2023. The median data team as percentage of the total workforce is 3%, with most companies falling within the 1-5% range. <a 
+            href="https://www.synq.io/blog/data-team-size-at-100-scaleups" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            style={{ color: '#0070f3', textDecoration: 'none' }}
+          >Read more</a> about this analysis.
+        </p>
+      </div>
+    </>
   );
 }
