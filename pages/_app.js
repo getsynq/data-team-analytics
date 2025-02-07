@@ -1,5 +1,6 @@
 import '../styles/globals.css';
 import Nav from '../components/Nav';
+import CTAButton from '../components/CTAButton';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -11,6 +12,7 @@ function MyApp({ Component, pageProps }) {
     }}>
       <Nav />
       <Component {...pageProps} />
+      <CTAButton />
     </div>
   );
 }
