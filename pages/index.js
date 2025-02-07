@@ -42,7 +42,7 @@ export default function Home() {
           boxShadow: '0 2px 4px rgba(0,0,0,0.05)',
         }}>
           <h3 style={{ fontSize: '1.5rem', marginBottom: '16px', color: '#000000' }}>Data Team Size</h3>
-          <p style={{ color: '#333333', lineHeight: '1.6' }}>Discover how data team sizes scale with company growth across Europe.</p>
+          <p style={{ color: '#333333', lineHeight: '1.6' }}>Ratio of data team size compared to total company size in 100 tech scaleups.</p>
         </Link>
         <Link href="/team-composition" style={{
           padding: '32px',
@@ -55,7 +55,7 @@ export default function Home() {
           boxShadow: '0 2px 4px rgba(0,0,0,0.05)',
         }}>
           <h3 style={{ fontSize: '1.5rem', marginBottom: '16px', color: '#000000' }}>Team Composition</h3>
-          <p style={{ color: '#333333', lineHeight: '1.6' }}>Explore the makeup of successful data teams across different company sizes.</p>
+          <p style={{ color: '#333333', lineHeight: '1.6' }}>Composition of data roles across insight, data engineering, and machine learning.</p>
         </Link>
         <Link href="/data-engineer-ratio" style={{
           padding: '32px',
@@ -68,7 +68,7 @@ export default function Home() {
           boxShadow: '0 2px 4px rgba(0,0,0,0.05)',
         }}>
           <h3 style={{ fontSize: '1.5rem', marginBottom: '16px', color: '#000000' }}>Data-to-Engineer Ratio</h3>
-          <p style={{ color: '#333333', lineHeight: '1.6' }}>Analyze the relationship between data teams and overall engineering workforce.</p>
+          <p style={{ color: '#333333', lineHeight: '1.6' }}>How data and product teams compare to engineering team sizes in 40 scaleups.</p>
         </Link>
         <Link href="/salary-benchmark" style={{
           padding: '32px',
@@ -81,7 +81,7 @@ export default function Home() {
           boxShadow: '0 2px 4px rgba(0,0,0,0.05)',
         }}>
           <h3 style={{ fontSize: '1.5rem', marginBottom: '16px', color: '#000000' }}>Salary Benchmark</h3>
-          <p style={{ color: '#333333', lineHeight: '1.6' }}>Compare data team salaries across Europe in 2023.</p>
+          <p style={{ color: '#333333', lineHeight: '1.6' }}>Compare data team salaries across hundreds of European companies.</p>
         </Link>
       </section>
     </div>
