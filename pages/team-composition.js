@@ -39,7 +39,7 @@ export default function TeamCompositionPage() {
             color: '#666',
             marginBottom: '40px'
           }}>
-            What's the right mix of data roles in top data teams? We analyzed 40 tech companies to understand how companies balance analysts, data engineering, and machine learning roles.{' '}
+            What's the right mix of data roles in top data teams? We analyzed 40 companies to understand how companies balance analysts, data engineering, and machine learning roles.{' '}
             <span className={styles.highlight}>Find out what the optimal data team composition is for your team.</span>
           </h3>
           
@@ -62,7 +62,7 @@ export default function TeamCompositionPage() {
           textAlign: 'center',
           lineHeight: '1.6'
         }}>
-          Data collected from 40 European tech companies in July 2024, including Series A to public companies, with data teams ranging from 5 to 200+ people. We've looked into the distribution of data roles in 40 top data teams. The analysis include the following job titles: Data Analysts, Product Analysts, Data Scientists, Data Engineers, Data Platform, Analytics Engineers, Data Governance, and Machine Learning Engineers. Based on publicly available LinkedIn data and verified through industry connections. <a 
+          Data collected from 40 companies in July 2024, including Series A to public companies, with data teams ranging from 5 to 200+ people. We've looked into the distribution of data roles in 40 top data teams. The analysis include the following job titles: Data Analysts, Product Analysts, Data Scientists, Data Engineers, Data Platform, Analytics Engineers, Data Governance, and Machine Learning Engineers. Based on publicly available LinkedIn data and verified through industry connections. <a 
             href="https://www.synq.io/blog/data-team-composition" 
             target="_blank" 
             rel="noopener noreferrer"
