@@ -43,7 +43,7 @@ export default function TeamSize() {
             marginBottom: '40px'
           }}>
             How big should your data team be? We analyzed 100 tech companies to uncover benchmarks for optimal data team size at different stages of growth.{' '}
-            <span className={styles.highlight}>See how your team compares to industry benchmarks.</span>
+            <span className={styles.highlight}>See how your team size compares to industry benchmarks.</span>
           </h3>
         </header>
         
