@@ -223,7 +223,7 @@ export default function DataEngineerRatio() {
         fontSize: '20px',
         fontWeight: '600',
         textAlign: 'center',
-        marginBottom: '30px',
+        marginBottom: '0px',
         color: '#666'
       }}>
         Data and Product to Engineering Roles Ratio
