@@ -11,8 +11,8 @@ export default function TeamSize() {
   return (
     <>
       <SEO 
-        title="Data Team Size Analysis - Data Team Analytics"
-        description="Discover how data team sizes scale with company growth across European tech companies. Analysis of 100+ tech scaleups."
+        title="Data Team Sizes"
+        description="How big should your data team be? We analyzed 100 tech companies to uncover benchmarks for optimal data team size at different stages of growth. See how your team compares to industry benchmarks."
         path="/team-size"
       />
       <div style={{ 

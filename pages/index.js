@@ -5,7 +5,11 @@ import SEO from '../components/SEO';
 export default function Home() {
   return (
     <>
-      <SEO />
+      <SEO 
+        title="Data Team Analytics"
+        description="We analyzed 100+ fast-growing companies to uncover insights about team size, role distribution, data-to-engineer ratios, and salaries. Benchmark how your team compares."
+        path="/"
+      />
       <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 24px' }}>      
 
         {/* Hero Section */}

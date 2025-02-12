@@ -8,8 +8,8 @@ export default function SalaryBenchmark() {
   return (
     <>
       <SEO 
-        title="Data Team Salary Benchmarks - Data Team Analytics"
-        description="Compare data team salaries across Europe in 2023. Comprehensive salary analysis for data engineers, scientists, and analysts across experience levels."
+        title="Europe Data Salary Benchmark"
+        description="How much should you pay your data team? We analyzed salaries across 500 jobs to benchmark salaries for data engineers, data analysts, analytics engineers, and data scientists."
         path="/salary-benchmark"
       />
       <div style={{ 
@@ -62,7 +62,7 @@ export default function SalaryBenchmark() {
           textAlign: 'center',
           lineHeight: '1.6'
         }}>
-          We’ve used publicly available job boards and self reported data points on European data pay to collect data for 500 jobs across 260 companies. In cases where a job listing provided a range (i.e. $60-80k) we’ve taken the mid of the range. We’ve converted all numbers from local currencies to USD to make them comparable. The sample mostly consist of data points from the following job categories: Data Engineer, Data Scientist, Analytics Engineer and Data/Product Analyst. All roles we’ve included have been individual contributor (IC) roles although some of the lead roles may include informal people management. If we had included manager, director and VP level roles, there would be some total compensation packages exceeding what we’ve found for IC roles. Our benchmark looks at total compensation which also includes stock rewards and bonuses to give the most fair comparison. <a 
+          We've used publicly available job boards and self reported data points on European data pay to collect data for 500 jobs across 260 companies. In cases where a job listing provided a range (i.e. $60-80k) we've taken the mid of the range. We've converted all numbers from local currencies to USD to make them comparable. The sample mostly consist of data points from the following job categories: Data Engineer, Data Scientist, Analytics Engineer and Data/Product Analyst. All roles we've included have been individual contributor (IC) roles although some of the lead roles may include informal people management. If we had included manager, director and VP level roles, there would be some total compensation packages exceeding what we've found for IC roles. Our benchmark looks at total compensation which also includes stock rewards and bonuses to give the most fair comparison. <a 
             href="https://www.synq.io/blog/europe-data-salary-benchmark-2023" 
             target="_blank" 
             rel="noopener noreferrer"

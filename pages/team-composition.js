@@ -8,8 +8,8 @@ export default function TeamCompositionPage() {
   return (
     <>
       <SEO 
-        title="Data Team Composition Analysis - Data Team Analytics"
-        description="Explore the makeup of successful data teams across different company sizes. Analysis of roles, responsibilities, and team structures in European tech companies."
+        title="Data Team Composition"
+        description="What's the right mix of data roles in top data teams? We analyzed 40 tech companies to understand how companies balance their data teams across insights (46%), data engineering (43%), and machine learning (11%) roles."
         path="/team-composition"
       />
       <div style={{ 

@@ -8,8 +8,8 @@ export default function DataEngineerRatioPage() {
   return (
     <>
       <SEO 
-        title="Data-to-Engineer Ratio Analysis - Data Team Analytics"
-        description="Analyze the relationship between data teams and overall engineering workforce. Insights into optimal ratios for different company sizes and industries."
+        title="Data to Product and Engineering Ratios"
+        description="How large should your data team be relative to your engineering team? We analyzed 40 top tech companies to uncover benchmarks in engineering and product teams relative to the data team."
         path="/data-engineer-ratio"
       />
       <div style={{ 
