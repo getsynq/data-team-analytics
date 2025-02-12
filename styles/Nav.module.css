@@ -15,12 +15,28 @@
 }
 
 @media (max-width: 640px) {
+  .hamburger {
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+  }
+
   .desktopMenu {
     display: none;
   }
 
-  .hamburger {
-    display: block;
+  .mobileHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .mobileTitle {
+    font-size: 1.4rem !important;
   }
 
   .mobileMenu {

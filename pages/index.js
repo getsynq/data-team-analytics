@@ -23,7 +23,7 @@ export default function Home() {
             fontSize: '3.5rem', 
             marginBottom: '24px',
             lineHeight: '1.1'
-          }}>Data Team Benchmarks</h2>
+          }}>Benchmark Your Data Team</h2>
           <h3 style={{ 
             fontWeight: 'normal', 
             fontSize: '1.5rem', 
