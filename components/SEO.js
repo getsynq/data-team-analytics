@@ -1,8 +1,8 @@
 import Head from 'next/head';
 
 export default function SEO({ 
-  title = "Data Team Analytics - Insights about Data Teams",
-  description = "Explore data team analytics, including team sizes, composition, engineering ratios, and salary benchmarks across European tech companies.",
+  title = "Benchmark Your Data Team",
+  description = "We analyzed 100+ fast-growing companies to uncover insights about team size, role distribution, data-to-engineer ratios, and salaries. Benchmark how your team compares.",
   path = ""
 }) {
   const baseUrl = "https://data.synq.io"; // Replace with your actual domain
