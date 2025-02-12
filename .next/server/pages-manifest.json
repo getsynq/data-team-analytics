@@ -2,7 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/": "pages/index.js",
   "/data-engineer-ratio": "pages/data-engineer-ratio.js",
-  "/team-size": "pages/team-size.js",
-  "/team-composition": "pages/team-composition.js"
+  "/team-size": "pages/team-size.js"
 }

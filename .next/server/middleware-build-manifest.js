@@ -25,10 +25,10 @@ self.__BUILD_MANIFEST = {
       "static/chunks/main.js",
       "static/chunks/pages/data-engineer-ratio.js"
     ],
-    "/team-composition": [
+    "/team-size": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/team-composition.js"
+      "static/chunks/pages/team-size.js"
     ]
   },
   "ampFirstPages": []
