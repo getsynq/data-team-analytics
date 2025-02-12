@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <SEO 
-        title="Data Team Analytics"
+        title="Benchmark Your Data Team"
         description="We analyzed 100+ fast-growing companies to uncover insights about team size, role distribution, data-to-engineer ratios, and salaries. Benchmark how your team compares."
         path="/"
       />
