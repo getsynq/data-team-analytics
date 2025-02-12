@@ -5,6 +5,7 @@ import DataTeamSizeChartEU from '../components/charts/DataTeamSizeChartEU';
 import DataTeamSizeChartUS from '../components/charts/DataTeamSizeChartUS';
 import DataTeamSizeChartVertical from '../components/charts/DataTeamSizeChartVertical';
 import SEO from '../components/SEO';
+import styles from '../styles/Home.module.css';
 
 export default function TeamSize() {
   return (
@@ -41,7 +42,8 @@ export default function TeamSize() {
             color: '#666',
             marginBottom: '40px'
           }}>
-            Ratio of data team size compared to total company size in 100 tech scaleups
+            How big should your data team be? We analyzed 100 tech companies to uncover benchmarks for optimal data team size at different stages of growth.{' '}
+            <span className={styles.highlight}>See how your team compares to industry benchmarks.</span>
           </h3>
         </header>
         
@@ -56,7 +58,7 @@ export default function TeamSize() {
           textAlign: 'center',
           lineHeight: '1.6'
         }}>
-          Data collected from 100 tech scaleups across Europe in 2023. The median data team as percentage of the total workforce is 3%, with most companies falling within the 1-5% range. <a 
+          Data collected from 100 tech scaleups across Europe and US in 2023. Data team size is defined as the number of data professionals in the company based on these role definitions on LinkedIn: Data Analyst, Data Scientist, Machine Learning Engineer, Data Engineer, Product Analyst, Business Intelligence, Data Warehouse, Analytics Engineer, Data Manager, Data Lead, Head of Data, Data Director, VP of Data, Chief Data Officer. <a 
             href="https://www.synq.io/blog/data-team-size-at-100-scaleups" 
             target="_blank" 
             rel="noopener noreferrer"

@@ -28,7 +28,8 @@ export default function Home() {
             margin: '0 auto',
             color: '#666'
           }}>
-            Dive into visualizations about data teams, their composition, and industry benchmarks.
+            We analyzed 100+ fast-growing companies to uncover insights about team size, role distribution, data-to-engineer ratios, and salaries.{' '}
+            <span className={styles.highlight}>Benchmark how your team compares.</span>
           </h3>
         </header>
 
