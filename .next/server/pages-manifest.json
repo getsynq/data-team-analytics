@@ -3,7 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/salary-benchmark": "pages/salary-benchmark.js",
-  "/team-size": "pages/team-size.js",
-  "/team-composition": "pages/team-composition.js"
+  "/team-composition": "pages/team-composition.js",
+  "/data-engineer-ratio": "pages/data-engineer-ratio.js",
+  "/team-size": "pages/team-size.js"
 }
