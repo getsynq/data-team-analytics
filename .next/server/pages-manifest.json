@@ -4,5 +4,6 @@
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
   "/salary-benchmark": "pages/salary-benchmark.js",
-  "/team-size": "pages/team-size.js"
+  "/team-size": "pages/team-size.js",
+  "/team-composition": "pages/team-composition.js"
 }

@@ -103,6 +103,14 @@ const options = {
     },
     y: {
       stacked: true,
+      ticks: {
+        autoSkip: false,
+        maxRotation: 0,
+        minRotation: 0,
+        font: {
+          size: 11
+        }
+      }
     }
   }
 };
