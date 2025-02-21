@@ -1,5 +1,0 @@
-{
-    "redirects": [
-      { "source": "http://databenchmarks.com", "destination": "https://databenchmarks.com", "permanent": true }
-    ]
-}
