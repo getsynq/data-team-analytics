@@ -25,10 +25,25 @@ self.__BUILD_MANIFEST = {
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/data-engineer-ratio": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/data-engineer-ratio.js"
+    ],
+    "/data-stack": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/data-stack.js"
+    ],
     "/salary-benchmark": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/salary-benchmark.js"
+    ],
+    "/team-composition": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/team-composition.js"
     ]
   },
   "ampFirstPages": []

@@ -2,7 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/data-stack": "pages/data-stack.js",
+  "/team-composition": "pages/team-composition.js",
   "/": "pages/index.js",
-  "/salary-benchmark": "pages/salary-benchmark.js",
-  "/data-engineer-ratio": "pages/data-engineer-ratio.js"
+  "/data-engineer-ratio": "pages/data-engineer-ratio.js",
+  "/salary-benchmark": "pages/salary-benchmark.js"
 }

@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <SEO 
         title="Benchmark Your Data Team"
-        description="We analyzed 100+ fast-growing companies to uncover insights about team size, role distribution, data-to-engineer ratios, and salaries. Benchmark how your team compares."
+        description="We analyzed tens of thousands of companies to uncover insights about data stacks, team size, role distribution, data-to-engineer ratios, and salaries. Benchmark how your team compares."
         path="/"
       />
       <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 24px' }}>      
@@ -32,7 +32,7 @@ export default function Home() {
             margin: '0 auto',
             color: '#666'
           }}>
-            We analyzed 100+ fast-growing companies to uncover insights about team size, role distribution, data-to-engineer ratios, and salaries.{' '}
+            We analyzed tens of thousands of companies to uncover insights about data stacks, team size, role distribution, data-to-engineer ratios, and salaries.{' '}
             <span className={styles.highlight}>Benchmark how your team compares.</span>
           </h3>
         </header>
@@ -90,6 +90,19 @@ export default function Home() {
           }}>
             <h3 style={{ fontSize: '1.5rem', marginBottom: '16px', color: '#000000' }}>Salary Benchmark</h3>
             <p style={{ color: '#333333', lineHeight: '1.6' }}>Compare data team salaries across hundreds of European companies.</p>
+          </Link>
+          <Link href="/data-stack" style={{
+            padding: '32px',
+            borderRadius: '12px',
+            border: '1px solid #eee',
+            textDecoration: 'none',
+            color: '#000000',
+            background: 'linear-gradient(175deg, #FFE419 20%, #FFF5B1 100%)',
+            transition: 'all 0.2s ease-in-out',
+            boxShadow: '0 2px 4px rgba(0,0,0,0.05)',
+          }}>
+            <h3 style={{ fontSize: '1.5rem', marginBottom: '16px', color: '#000000' }}>Data Stack</h3>
+            <p style={{ color: '#333333', lineHeight: '1.6' }}>Most popular tools across data warehousing, BI, transformation, ingestion, and catalogs.</p>
           </Link>
         </section>
       </div>

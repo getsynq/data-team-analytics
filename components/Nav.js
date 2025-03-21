@@ -15,7 +15,9 @@ export default function Nav() {
     color: '#333',
     fontWeight: currentPath === path ? '600' : '400',
     borderBottom: currentPath === path ? '2px solid #0070f3' : 'none',
-    paddingBottom: '2px'
+    paddingBottom: '2px',
+    fontSize: '0.95rem',
+    whiteSpace: 'nowrap'
   });
 
   const handleMenuClick = () => {
@@ -103,11 +105,16 @@ export default function Nav() {
       </div>
 
       {/* Desktop Menu */}
-      <div className={styles.desktopMenu}>
+      <div className={styles.desktopMenu} style={{ 
+        gap: '12px',
+        maxWidth: '800px',
+        margin: '0 auto'
+      }}>
         <Link href="/team-size" style={getLinkStyle('/team-size')} onClick={handleLinkClick}>Data Team Size</Link>
         <Link href="/team-composition" style={getLinkStyle('/team-composition')} onClick={handleLinkClick}>Team Composition</Link>
         <Link href="/data-engineer-ratio" style={getLinkStyle('/data-engineer-ratio')} onClick={handleLinkClick}>Data-to-Engineer Ratio</Link>
         <Link href="/salary-benchmark" style={getLinkStyle('/salary-benchmark')} onClick={handleLinkClick}>Salary Benchmark</Link>
+        <Link href="/data-stack" style={getLinkStyle('/data-stack')} onClick={handleLinkClick}>Data Stack</Link>
       </div>
 
       {/* Mobile Menu */}
@@ -117,6 +124,7 @@ export default function Nav() {
           <Link href="/team-composition" style={getLinkStyle('/team-composition')} onClick={handleLinkClick}>Team Composition</Link>
           <Link href="/data-engineer-ratio" style={getLinkStyle('/data-engineer-ratio')} onClick={handleLinkClick}>Data-to-Engineer Ratio</Link>
           <Link href="/salary-benchmark" style={getLinkStyle('/salary-benchmark')} onClick={handleLinkClick}>Salary Benchmark</Link>
+          <Link href="/data-stack" style={getLinkStyle('/data-stack')} onClick={handleLinkClick}>Data Stack</Link>
         </div>
       )}
     </nav>
