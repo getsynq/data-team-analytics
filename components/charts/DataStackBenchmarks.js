@@ -9,6 +9,7 @@ import {
   Tooltip,
   Legend
 } from 'chart.js';
+import { rawData } from './data';
 
 ChartJS.register(
   CategoryScale,
@@ -18,69 +19,6 @@ ChartJS.register(
   Tooltip,
   Legend
 );
-
-const rawData = [
-  { tool: "BigQuery", category: "Data Warehouse", region: "North America", segment: "Small", companies: 469 },
-  { tool: "BigQuery", category: "Data Warehouse", region: "North America", segment: "Mid", companies: 911 },
-  { tool: "BigQuery", category: "Data Warehouse", region: "North America", segment: "Enterprise", companies: 414 },
-  { tool: "Snowflake", category: "Data Warehouse", region: "North America", segment: "Enterprise", companies: 1554 },
-  { tool: "Snowflake", category: "Data Warehouse", region: "North America", segment: "Small", companies: 1989 },
-  { tool: "Snowflake", category: "Data Warehouse", region: "North America", segment: "Mid", companies: 3896 },
-  { tool: "Redshift", category: "Data Warehouse", region: "North America", segment: "Enterprise", companies: 742 },
-  { tool: "Redshift", category: "Data Warehouse", region: "North America", segment: "Small", companies: 919 },
-  { tool: "Redshift", category: "Data Warehouse", region: "North America", segment: "Mid", companies: 1828 },
-  { tool: "Databricks", category: "Data Warehouse", region: "North America", segment: "Enterprise", companies: 1185 },
-  { tool: "Databricks", category: "Data Warehouse", region: "North America", segment: "Small", companies: 1190 },
-  { tool: "Databricks", category: "Data Warehouse", region: "North America", segment: "Mid", companies: 2362 },
-  { tool: "Looker", category: "Business Intelligence", region: "North America", segment: "Enterprise", companies: 905 },
-  { tool: "Looker", category: "Business Intelligence", region: "North America", segment: "Small", companies: 1705 },
-  { tool: "Looker", category: "Business Intelligence", region: "North America", segment: "Mid", companies: 2977 },
-  { tool: "Tableau", category: "Business Intelligence", region: "North America", segment: "Enterprise", companies: 3409 },
-  { tool: "Tableau", category: "Business Intelligence", region: "North America", segment: "Small", companies: 6335 },
-  { tool: "Tableau", category: "Business Intelligence", region: "North America", segment: "Mid", companies: 11090 },
-  { tool: "PowerBI", category: "Business Intelligence", region: "North America", segment: "Enterprise", companies: 3806 },
-  { tool: "PowerBI", category: "Business Intelligence", region: "North America", segment: "Small", companies: 6641 },
-  { tool: "PowerBI", category: "Business Intelligence", region: "North America", segment: "Mid", companies: 13291 },
-  { tool: "ThoughtSpot", category: "Business Intelligence", region: "North America", segment: "Enterprise", companies: 136 },
-  { tool: "ThoughtSpot", category: "Business Intelligence", region: "North America", segment: "Small", companies: 89 },
-  { tool: "ThoughtSpot", category: "Business Intelligence", region: "North America", segment: "Mid", companies: 171 },
-  { tool: "dbt", category: "Data Transformation", region: "North America", segment: "Enterprise", companies: 639 },
-  { tool: "dbt", category: "Data Transformation", region: "North America", segment: "Small", companies: 1225 },
-  { tool: "dbt", category: "Data Transformation", region: "North America", segment: "Mid", companies: 1985 },
-  { tool: "Matillion", category: "Data Transformation", region: "North America", segment: "Enterprise", companies: 173 },
-  { tool: "Matillion", category: "Data Transformation", region: "North America", segment: "Small", companies: 138 },
-  { tool: "Matillion", category: "Data Transformation", region: "North America", segment: "Mid", companies: 361 },
-  { tool: "Dataform", category: "Data Transformation", region: "North America", segment: "Enterprise", companies: 24 },
-  { tool: "Dataform", category: "Data Transformation", region: "North America", segment: "Small", companies: 25 },
-  { tool: "Dataform", category: "Data Transformation", region: "North America", segment: "Mid", companies: 59 },
-  { tool: "Fivetran", category: "Data Ingest", region: "North America", segment: "Enterprise", companies: 224 },
-  { tool: "Fivetran", category: "Data Ingest", region: "North America", segment: "Small", companies: 369 },
-  { tool: "Fivetran", category: "Data Ingest", region: "North America", segment: "Mid", companies: 767 },
-  { tool: "Airbyte", category: "Data Ingest", region: "North America", segment: "Enterprise", companies: 29 },
-  { tool: "Airbyte", category: "Data Ingest", region: "North America", segment: "Small", companies: 77 },
-  { tool: "Airbyte", category: "Data Ingest", region: "North America", segment: "Mid", companies: 127 },
-  { tool: "Matillion", category: "Data Ingest", region: "North America", segment: "Enterprise", companies: 173 },
-  { tool: "Matillion", category: "Data Ingest", region: "North America", segment: "Small", companies: 138 },
-  { tool: "Matillion", category: "Data Ingest", region: "North America", segment: "Mid", companies: 361 },
-  { tool: "Stitch", category: "Data Ingest", region: "North America", segment: "Enterprise", companies: 225 },
-  { tool: "Stitch", category: "Data Ingest", region: "North America", segment: "Small", companies: 271 },
-  { tool: "Stitch", category: "Data Ingest", region: "North America", segment: "Mid", companies: 484 },
-  { tool: "Alation", category: "Data Catalog", region: "North America", segment: "Enterprise", companies: 287 },
-  { tool: "Alation", category: "Data Catalog", region: "North America", segment: "Small", companies: 81 },
-  { tool: "Alation", category: "Data Catalog", region: "North America", segment: "Mid", companies: 252 },
-  { tool: "Atlan", category: "Data Catalog", region: "North America", segment: "Enterprise", companies: 52 },
-  { tool: "Atlan", category: "Data Catalog", region: "North America", segment: "Small", companies: 21 },
-  { tool: "Atlan", category: "Data Catalog", region: "North America", segment: "Mid", companies: 77 },
-  { tool: "Collibra", category: "Data Catalog", region: "North America", segment: "Enterprise", companies: 442 },
-  { tool: "Collibra", category: "Data Catalog", region: "North America", segment: "Small", companies: 167 },
-  { tool: "Collibra", category: "Data Catalog", region: "North America", segment: "Mid", companies: 415 },
-  { tool: "Datahub", category: "Data Catalog", region: "North America", segment: "Enterprise", companies: 110 },
-  { tool: "Datahub", category: "Data Catalog", region: "North America", segment: "Small", companies: 40 },
-  { tool: "Datahub", category: "Data Catalog", region: "North America", segment: "Mid", companies: 117 },
-  { tool: "Amundsen", category: "Data Catalog", region: "North America", segment: "Enterprise", companies: 14 },
-  { tool: "Amundsen", category: "Data Catalog", region: "North America", segment: "Small", companies: 7 },
-  { tool: "Amundsen", category: "Data Catalog", region: "North America", segment: "Mid", companies: 21 }
-];
 
 const regions = ['All', ...new Set(rawData.map(item => item.region))];
 const segments = ['All', ...new Set(rawData.map(item => item.segment))];

@@ -3,8 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/data-stack": "pages/data-stack.js",
-  "/team-composition": "pages/team-composition.js",
   "/": "pages/index.js",
-  "/data-engineer-ratio": "pages/data-engineer-ratio.js",
   "/salary-benchmark": "pages/salary-benchmark.js"
 }

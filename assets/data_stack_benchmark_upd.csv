@@ -1,0 +1,201 @@
+Data warehouse,Category,Region,Segment,Companies
+BigQuery,Data Warehouse,North America,Small,469
+BigQuery,Data Warehouse,North America,Mid,911
+BigQuery,Data Warehouse,North America,Enterprise,414
+Snowflake ,Data Warehouse,North America,Enterprise,1554
+Snowflake ,Data Warehouse,North America,Small,1989
+Snowflake ,Data Warehouse,North America,Mid,3896
+Redshift,Data Warehouse,North America,Enterprise,742
+Redshift,Data Warehouse,North America,Small,919
+Redshift,Data Warehouse,North America,Mid,1828
+Databricks,Data Warehouse,North America,Enterprise,1185
+Databricks,Data Warehouse,North America,Small,1190
+Databricks,Data Warehouse,North America,Mid,2362
+Looker,Business Intelligence,North America,Enterprise,905
+Looker,Business Intelligence,North America,Small,1705
+Looker,Business Intelligence,North America,Mid,2977
+Tableau,Business Intelligence,North America,Enterprise,3409
+Tableau,Business Intelligence,North America,Small,6335
+Tableau,Business Intelligence,North America,Mid,11090
+PowerBI,Business Intelligence,North America,Enterprise,3806
+PowerBI,Business Intelligence,North America,Small,6641
+PowerBI,Business Intelligence,North America,Mid,13291
+ThoughtSpot,Business Intelligence,North America,Enterprise,136
+ThoughtSpot,Business Intelligence,North America,Small,89
+ThoughtSpot,Business Intelligence,North America,Mid,171
+dbt,Data Transformation,North America,Enterprise,639
+dbt,Data Transformation,North America,Small,1225
+dbt,Data Transformation,North America,Mid,1985
+Matillion,Data Transformation,North America,Enterprise,173
+Matillion,Data Transformation,North America,Small,138
+Matillion,Data Transformation,North America,Mid,361
+Dataform,Data Transformation,North America,Enterprise,24
+Dataform,Data Transformation,North America,Small,25
+Dataform,Data Transformation,North America,Mid,59
+Fivetran,Data Ingest,North America,Enterprise,224
+Fivetran,Data Ingest,North America,Small,369
+Fivetran,Data Ingest,North America,Mid,767
+Airbyte,Data Ingest,North America,Enterprise,29
+Airbyte,Data Ingest,North America,Small,77
+Airbyte,Data Ingest,North America,Mid,127
+Matillion,Data Ingest,North America,Enterprise,173
+Matillion,Data Ingest,North America,Small,138
+Matillion,Data Ingest,North America,Mid,361
+Stitch,Data Ingest,North America,Enterprise,225
+Stitch,Data Ingest,North America,Small,271
+Stitch,Data Ingest,North America,Mid,484
+Alation,Data Catalog,North America,Enterprise,287
+Alation,Data Catalog,North America,Small,81
+Alation,Data Catalog,North America,Mid,252
+Atlan,Data Catalog,North America,Enterprise,52
+Atlan,Data Catalog,North America,Small,21
+Atlan,Data Catalog,North America,Mid,77
+Collibra,Data Catalog,North America,Enterprise,442
+Collibra,Data Catalog,North America,Small,167
+Collibra,Data Catalog,North America,Mid,415
+Datahub,Data Catalog,North America,Enterprise,110
+Datahub,Data Catalog,North America,Small,40
+Datahub,Data Catalog,North America,Mid,117
+Amundsen,Data Catalog,North America,Enterprise,14
+Amundsen,Data Catalog,North America,Small,7
+Amundsen,Data Catalog,North America,Mid,21
+BigQuery,Data Warehouse,Europe,Enterprise,225
+BigQuery,Data Warehouse,Europe,Small,360
+BigQuery,Data Warehouse,Europe,Mid,414
+Snowflake ,Data Warehouse,Europe,Enterprise,518
+Snowflake ,Data Warehouse,Europe,Small,713
+Snowflake ,Data Warehouse,Europe,Mid,1031
+Redshift,Data Warehouse,Europe,Enterprise,222
+Redshift,Data Warehouse,Europe,Small,323
+Redshift,Data Warehouse,Europe,Mid,478
+Databricks,Data Warehouse,Europe,Enterprise,638
+Databricks,Data Warehouse,Europe,Small,611
+Databricks,Data Warehouse,Europe,Mid,956
+Looker,Business Intelligence,Europe,Enterprise,418
+Looker,Business Intelligence,Europe,Small,953
+Looker,Business Intelligence,Europe,Mid,1082
+Tableau,Business Intelligence,Europe,Enterprise,1639
+Tableau,Business Intelligence,Europe,Small,2687
+Tableau,Business Intelligence,Europe,Mid,3355
+PowerBI,Business Intelligence,Europe,Enterprise,2418
+PowerBI,Business Intelligence,Europe,Small,3923
+PowerBI,Business Intelligence,Europe,Mid,5194
+ThoughtSpot,Business Intelligence,Europe,Enterprise,27
+ThoughtSpot,Business Intelligence,Europe,Small,38
+ThoughtSpot,Business Intelligence,Europe,Mid,48
+dbt,Data Transformation,Europe,Enterprise,312
+dbt,Data Transformation,Europe,Small,629
+dbt,Data Transformation,Europe,Mid,808
+Matillion,Data Transformation,Europe,Enterprise,65
+Matillion,Data Transformation,Europe,Small,52
+Matillion,Data Transformation,Europe,Mid,84
+Dataform,Data Transformation,Europe,Enterprise,39
+Dataform,Data Transformation,Europe,Small,47
+Dataform,Data Transformation,Europe,Mid,60
+Fivetran,Data Ingest,Europe,Enterprise,45
+Fivetran,Data Ingest,Europe,Small,157
+Fivetran,Data Ingest,Europe,Mid,163
+Airbyte,Data Ingest,Europe,Enterprise,7
+Airbyte,Data Ingest,Europe,Small,63
+Airbyte,Data Ingest,Europe,Mid,76
+Matillion,Data Ingest,Europe,Enterprise,65
+Matillion,Data Ingest,Europe,Small,52
+Matillion,Data Ingest,Europe,Mid,84
+Stitch,Data Ingest,Europe,Enterprise,53
+Stitch,Data Ingest,Europe,Small,83
+Stitch,Data Ingest,Europe,Mid,119
+Alation,Data Catalog,Europe,Enterprise,59
+Alation,Data Catalog,Europe,Small,21
+Alation,Data Catalog,Europe,Mid,43
+Atlan,Data Catalog,Europe,Enterprise,19
+Atlan,Data Catalog,Europe,Small,10
+Atlan,Data Catalog,Europe,Mid,20
+Collibra,Data Catalog,Europe,Enterprise,184
+Collibra,Data Catalog,Europe,Small,78
+Collibra,Data Catalog,Europe,Mid,159
+Datahub,Data Catalog,Europe,Enterprise,88
+Datahub,Data Catalog,Europe,Small,51
+Datahub,Data Catalog,Europe,Mid,83
+Amundsen,Data Catalog,Europe,Enterprise,4
+Amundsen,Data Catalog,Europe,Small,7
+Amundsen,Data Catalog,Europe,Mid,10
+BigQuery,Data Warehouse,APAC,Enterprise,50
+BigQuery,Data Warehouse,APAC,Small,70
+BigQuery,Data Warehouse,APAC,Mid,94
+Snowflake ,Data Warehouse,APAC,Enterprise,135
+Snowflake ,Data Warehouse,APAC,Small,211
+Snowflake ,Data Warehouse,APAC,Mid,252
+Redshift,Data Warehouse,APAC,Enterprise,92
+Redshift,Data Warehouse,APAC,Small,152
+Redshift,Data Warehouse,APAC,Mid,136
+Databricks,Data Warehouse,APAC,Enterprise,126
+Databricks,Data Warehouse,APAC,Small,188
+Databricks,Data Warehouse,APAC,Mid,214
+Looker,Business Intelligence,APAC,Enterprise,81
+Looker,Business Intelligence,APAC,Small,149
+Looker,Business Intelligence,APAC,Mid,172
+Tableau,Business Intelligence,APAC,Enterprise,340
+Tableau,Business Intelligence,APAC,Small,692
+Tableau,Business Intelligence,APAC,Mid,700
+PowerBI,Business Intelligence,APAC,Enterprise,442
+PowerBI,Business Intelligence,APAC,Small,935
+PowerBI,Business Intelligence,APAC,Mid,1038
+ThoughtSpot,Business Intelligence,APAC,Enterprise,10
+ThoughtSpot,Business Intelligence,APAC,Small,6
+ThoughtSpot,Business Intelligence,APAC,Mid,13
+dbt,Data Transformation,APAC,Enterprise,65
+dbt,Data Transformation,APAC,Small,139
+dbt,Data Transformation,APAC,Mid,136
+Matillion,Data Transformation,APAC,Enterprise,17
+Matillion,Data Transformation,APAC,Small,16
+Matillion,Data Transformation,APAC,Mid,44
+Dataform,Data Transformation,APAC,Enterprise,9
+Dataform,Data Transformation,APAC,Small,7
+Dataform,Data Transformation,APAC,Mid,9
+Fivetran,Data Ingest,APAC,Enterprise,17
+Fivetran,Data Ingest,APAC,Small,27
+Fivetran,Data Ingest,APAC,Mid,46
+Airbyte,Data Ingest,APAC,Enterprise,3
+Airbyte,Data Ingest,APAC,Small,6
+Airbyte,Data Ingest,APAC,Mid,10
+Matillion,Data Ingest,APAC,Enterprise,17
+Matillion,Data Ingest,APAC,Small,16
+Matillion,Data Ingest,APAC,Mid,44
+Stitch,Data Ingest,APAC,Enterprise,23
+Stitch,Data Ingest,APAC,Small,25
+Stitch,Data Ingest,APAC,Mid,31
+Alation,Data Catalog,APAC,Enterprise,25
+Alation,Data Catalog,APAC,Small,10
+Alation,Data Catalog,APAC,Mid,21
+Atlan,Data Catalog,APAC,Enterprise,5
+Atlan,Data Catalog,APAC,Small,0
+Atlan,Data Catalog,APAC,Mid,4
+Collibra,Data Catalog,APAC,Enterprise,45
+Collibra,Data Catalog,APAC,Small,24
+Collibra,Data Catalog,APAC,Mid,37
+Datahub,Data Catalog,APAC,Enterprise,10
+Datahub,Data Catalog,APAC,Small,9
+Datahub,Data Catalog,APAC,Mid,16
+Amundsen,Data Catalog,APAC,Enterprise,0
+Amundsen,Data Catalog,APAC,Small,2
+Amundsen,Data Catalog,APAC,Mid,8
+BigQuery,Data Warehouse,Uncategorised,Uncategorised,5565
+Snowflake,Data Warehouse,Uncategorised,Uncategorised,860
+Redshift,Data Warehouse,Uncategorised,Uncategorised,8951
+Databricks,Data Warehouse,Uncategorised,Uncategorised,3765
+Looker,Business Intelligence,Uncategorised,Uncategorised,0
+Tableau,Business Intelligence,Uncategorised,Uncategorised,82932
+PowerBI,Business Intelligence,Uncategorised,Uncategorised,118403
+ThoughtSpot,Business Intelligence,Uncategorised,Uncategorised,680
+dbt,Data Transformation,Uncategorised,Uncategorised,44312
+Matillion,Data Transformation,Uncategorised,Uncategorised,390
+Dataform,Data Transformation,Uncategorised,Uncategorised,519
+Fivetran,Data Ingest,Uncategorised,Uncategorised,2142
+Airbyte,Data Ingest,Uncategorised,Uncategorised,787
+Matillion,Data Ingest,Uncategorised,Uncategorised,390
+Stitch,Data Ingest,Uncategorised,Uncategorised,2281
+Alation,Data Catalog,Uncategorised,Uncategorised,906
+Atlan,Data Catalog,Uncategorised,Uncategorised,234
+Collibra,Data Catalog,Uncategorised,Uncategorised,2334
+Datahub,Data Catalog,Uncategorised,Uncategorised,933
+Amundsen,Data Catalog,Uncategorised,Uncategorised,123
